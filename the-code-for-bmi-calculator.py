@@ -23,7 +23,7 @@ def calculate_bmi():
         elif bmi  <= 29.9:
             health_status = "you are overweight"
         elif bmi <= 34.9:
-            health_status = "you are severely overweight"
+            health_status = "FATASSSSS"
 
         
         result_label.config(text=f"Your BMI is: {bmi:.2f}\n{health_status}")
