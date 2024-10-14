@@ -3,7 +3,7 @@ from pylab import *
 import matplotlib.pyplot as plt
 
 # read image to array
-im = array(Image.open('Tattoo-designs/Bondage-skull.jpg').convert('L'))
+im = array(Image.open('"C:\Users\LEVEL51 PC\OneDrive\Pictures\tattoo_design.jpg"').convert('L'))
 
 # create a new figure
 figure()
